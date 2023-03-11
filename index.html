@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Doo App</title>
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/query.css">
+    <script src="js/script.js" defer></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+      <div class="tasks-container not-started">
+        <h2 class="primary-header">Not Started</h2>
+        <input type="text"class="not-started-input" />
+        <button class="btn main-button not-started-btn" id="not-started-btn">Add</button>   
+      </div>
+      </div>
+      <div class="card">
+      <div class="tasks-container in-progress">
+        <h2 class="primary-header">In Progress</h2>
+        <input type="text" class="in-progress-input" />
+        <button class="btn main-button in-progress-btn" id="in-progress-btn">Add</button>
+        
+      </div>
+      </div>
+      <div class="card">
+      <div class="tasks-container completed">
+        <h2 class="primary-header">Completed</h2>
+        <input type="text" class="completed-input" />
+        <button class="btn main-button completed-btn" id="completed-btn">Add</button>
+    </div>
+    </div>
+  </body>
+</html>
